@@ -1,0 +1,19 @@
+{
+  "name": "vundb/ifelse",
+  "license": "proprietary",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Vundb\\IfElse\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vundb\\Test\\": "test/"
+    }
+  }
+}
